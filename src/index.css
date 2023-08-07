@@ -1,0 +1,75 @@
+body{
+  background-color: #0f64b4;
+  font-family: 'Borel', cursive;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  background-image:url(src/assets/1899122.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3);
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.title{
+  height: 70px;
+  font-size: xx-large;
+  align-content: space-around;
+  padding:  30px 0px 0px 0px;
+  text-shadow: 
+    -1px -1px 0 #f8f7f7, 
+    1px -1px 0 #f8f7f7,  
+    -1px 1px 0 #f8f7f7,  
+    1px 1px 0 #f8f7f7; 
+}
+
+.score-card{
+  background-color: #cdcdcd;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3);
+  margin: 20px 10px;
+  justify-content: flex-end;
+}
+
+.score-t{
+  display: flex; 
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
+  background-color: #cdcdcd;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3);
+}
+.card-data {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-name {
+  margin-left: 12px;
+}
+.card-game{
+  display: flex;
+  flex-direction: row;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
